@@ -140,6 +140,10 @@ public  class UtilsStringAbstract {
 				e.printStackTrace();
 				log.error(ExceptionReturnCode.DECRYPT_PROCESS.toShow(e));
 				throw new ZiphraException(ExceptionReturnCode.DECRYPT_PROCESS);
+			} catch (Exception e) {
+				e.printStackTrace();
+				log.error(ExceptionReturnCode.DECRYPT_PROCESS.toShow(e));
+				throw new ZiphraException(ExceptionReturnCode.DECRYPT_PROCESS);
 			}
 			
 			if ("[]".equals(p.getObjectDTO())) {
