@@ -2,8 +2,8 @@ package ar.ziphra.common.util;
 
 
 
-import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
@@ -12,180 +12,16 @@ public class RandomNicknameUtil {
 	
 	
 	public static List<String> getList(){
-		ArrayList<String> words = new ArrayList<String>();
-		ArrayList<String> emojis = new ArrayList<String>();
-		words.add("And");
-		words.add("Are");
-		words.add("Ape");
-		words.add("Ace");
-		words.add("Act");
-		words.add("Ask");
-		words.add("Arm");
-		words.add("Age");
-		words.add("Ago");
-		words.add("Air");
-		words.add("Ate");
-		words.add("All");
-		words.add("But");
-		words.add("Bye");
-		words.add("Bad");
-		words.add("Big");
-		words.add("Bed");
-		words.add("Bat");
-		words.add("Boy");
-		words.add("Bus");
-		words.add("Bag");
-		words.add("Box");
-		words.add("Bit");
-		words.add("Bee");
-		words.add("Buy");
-		words.add("Bun");
-		words.add("Cub");
-		words.add("Cat");
-		words.add("Car");
-		words.add("Cut");
-		words.add("Cow");
-		words.add("Cry");
-		words.add("Cab");
-		words.add("Can");
-		words.add("Dad");
-		words.add("Dab");
-		words.add("Dam");
-		words.add("Did");
-		words.add("Dug");
-		words.add("Den");
-		words.add("Dot");
-		words.add("Dip");
-		words.add("Day");
-		words.add("Ear");
-		words.add("Eye");
-		words.add("Eat");
-		words.add("End");
-		words.add("Elf");
-		words.add("Egg");
-		words.add("Far");
-		words.add("Fat");
-		words.add("Few");
-		words.add("Fan");
-		words.add("Fun");
-		words.add("Fit");
-		words.add("Fin");
-		words.add("Fox");
-		words.add("Own");
-		words.add("Odd");
-		words.add("Our");
-		words.add("Pet");
-		words.add("Pat");
-		words.add("Peg");
-		words.add("Paw");
-		words.add("Pup");
-		words.add("Pit");
-		words.add("Put");
-		words.add("Pot");
-		words.add("Pop");
-		words.add("Pin");
-		words.add("Rat");
-		words.add("Rag");
-		words.add("Rub");
-		words.add("Row");
-		words.add("Rug");
-		words.add("Run");
-		words.add("Rap");
-		words.add("Ram");
-		words.add("Sow");
-		words.add("See");
-	//	words.add("Saw");
-		/*words.add("Set");
-		words.add("Sit");
-		words.add("Sir");
-		words.add("Sat");
-		words.add("Sob");
-		words.add("Tap");
-		words.add("Tip");
-		words.add("Top");
-		words.add("Tug");
-		words.add("Tow");
-		words.add("Toe");
-		words.add("Tan");
-		words.add("Ten");
-		words.add("Two");
-		words.add("Use");
-		words.add("Van");
-		words.add("Vet");
-		words.add("Was");
-		words.add("Wet");
-		words.add("Win");
-		words.add("Won");
-		words.add("Wig");
-		words.add("War");
-		words.add("Why");
-		words.add("Who");
-		words.add("Way");
-		words.add("Wow");
-		words.add("You");
-		words.add("Yes");
-		words.add("Yak");
-		words.add("Yet");
-		words.add("Zip");
-		words.add("Zap");
-		words.add("Fix");
-		words.add("Fly");
-		words.add("Fry");
-		words.add("For");
-		words.add("Got");
-		words.add("Get");
-		words.add("God");
-		words.add("Gel");
-		words.add("Gas");
-		words.add("Hat");
-		words.add("Hit");
-		words.add("Has");
-		words.add("Had");
-		words.add("How");
-		words.add("Her");
-		words.add("His");
-		words.add("Hen");
-		words.add("Ink");
-		words.add("Ice");
-		words.add("Ill");
-		words.add("Jab");
-		words.add("Jug");
-		words.add("Jet");
-		words.add("Jam");
-		words.add("Jar");
-		words.add("Job");
-		words.add("Jog");
-		words.add("Kit");
-		words.add("Key");
-		words.add("Lot");
-		words.add("Lit");
-		words.add("Let");
-		words.add("Lay");
-		words.add("Mat");
-		words.add("Man");
-		words.add("Mad");
-		words.add("Mug");
-		words.add("Mix");
-		words.add("Map");
-		words.add("Mum");
-		words.add("Mud");
-		words.add("Mom");
-		words.add("May");
-		words.add("Met");
-		words.add("Net");
-		words.add("New");
-		words.add("Nap");
-		words.add("Now");
-		words.add("Nod");
-		words.add("Net");
-		words.add("Not");
-		words.add("Nut");
-		words.add("Oar");
-		words.add("One");
-		words.add("Out");
-		words.add("Owl");
-		words.add("Old");*/
+
+
 		
+
+		ArrayList<String> words = new ArrayList<>(
+			    Arrays.asList("Liam","Noah","Owen","Jack","Luke","Mason","Ethan","James","Henry","David","John","Ryan","Mark","Adam","Kyle","Cole","Sean","Nolan","Blake","Max","Eric","Troy","Paul","Joel","Alex","Eli","Zane","Jake","Dean","Gabe","Ryan","Caleb","Tyler","Isaac","Logan","Evan","Ben","Jack","Matt","Zack","Levi","Toby","Finn","Jay","Kyle","Max","Nick","Rob","Sam","Ted","Tom","Van","Wes","Zed","Lux","Zac","Liam","Noah","Owen","Jack","Luke","Mason","Ethan","James","Henry","David","John","Ryan","Mark","Adam","Kyle","Cole","Sean","Nolan","Blake","Max","Eric","Troy","Paul","Joel","Alex","Eli","Zane","Jake","Dean","Gabe","Caleb","Tyler","Isaac","Logan","Evan","Ben","Matt","Zack","Levi","Toby","Finn","Jay","Nick","Rob","Sam","Ted","Tom","Van","Wes","Zed","Lux","Zac","Drew","Chad","Reid","Ezra","Tate","Jude","Rory","Quinn","Miles","Troy","Clark","Seth","Neil","Shawn","Cody","Brent","Bryce","Andy","Brad","Casey","Doug","Frank","Fred","Hank","Ivan","Jace","Joel","Kirk","Lyle","Mick","Nate","Otis","Pete","Ray","Ross","Saul","Tim","Vic","Walt")
+			);
+
+
+		ArrayList<String> emojis = new ArrayList<String>();
 		emojis.add("😀");
 		emojis.add("😆");
 		emojis.add("🤣");
@@ -256,6 +92,7 @@ public class RandomNicknameUtil {
 		emojis.add("🥕");
 		emojis.add("🍩");
 		emojis.add("🍪");
+		
 		Collections.shuffle(words, new Random((new Random()).nextInt(990)));
 		Collections.shuffle(words, new Random((new Random()).nextInt(9903)));
 		Collections.shuffle(emojis, new Random((new Random()).nextInt(90)));
@@ -283,10 +120,10 @@ public class RandomNicknameUtil {
 		return getList().get(new Random().nextInt(l.size()));
 	}
 	
- 	public static void main(String[] args) throws Exception {
-		//System.out.println("\uD83D\uDE00");
-		//System.out.println(new String("😁😍😘🤑😛🦝🐃🐁🐘♠️♥️♦️♣️♟️🔥☀️🪐⚙️🗿🇦🇷🇦🇲🇺🇸".getBytes(),"UTF-8"));
-		
-		getList();
-	}
+// 	public static void main(String[] args) throws Exception {
+//		//System.out.println("\uD83D\uDE00");
+//		//System.out.println(new String("😁😍😘🤑😛🦝🐃🐁🐘♠️♥️♦️♣️♟️🔥☀️🪐⚙️🗿🇦🇷🇦🇲🇺🇸".getBytes(),"UTF-8"));
+//		
+//		getList();
+//	}
 }
